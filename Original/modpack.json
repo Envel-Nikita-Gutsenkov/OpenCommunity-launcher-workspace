@@ -1,0 +1,161 @@
+{
+  "name" : "Original",
+  "title" : "Original",
+  "gameVersion" : "1.16.5",
+  "features" : [
+    {
+      "properties" : {
+        "name" : "Динамический ФПС",
+        "description" : "Снижать фпс, если окно игры не активно.",
+        "recommendation" : null,
+        "selected" : true
+      },
+      "files" : {
+        "include" : [
+          "mods/*dynamic-fps*"
+        ],
+        "exclude" : [ ]
+      }
+    },
+    {
+      "properties" : {
+        "name" : "Оптифайн",
+        "description" : "Оптимизация, улучшение графики, поддержка официальных текстур и шейдеров. Крайне не рекомендуется отключать.",
+        "recommendation" : null,
+        "selected" : true
+      },
+      "files" : {
+        "include" : [
+          "mods/*optifabric*",
+          "mods/*OptiFine*"
+        ],
+        "exclude" : [ ]
+      }
+    },
+    {
+      "properties" : {
+        "name" : "Характеристики лошадей (1)",
+        "description" : "Показывать характеристики лошадей при наведении в F3.",
+        "recommendation" : null,
+        "selected" : true
+      },
+      "files" : {
+        "include" : [
+          "mods/*HorseDebug*"
+        ],
+        "exclude" : [ ]
+      }
+    },
+    {
+      "properties" : {
+        "name" : "Характеристики лошадей (2)",
+        "description" : "Показывать характеристики лошадей в их интерфейсе после приручения.",
+        "recommendation" : null,
+        "selected" : false
+      },
+      "files" : {
+        "include" : [
+          "mods/*horse-stats-vanilla*"
+        ],
+        "exclude" : [ ]
+      }
+    },
+    {
+      "properties" : {
+        "name" : "Визуализация редактора мира",
+        "description" : "Визуализировать выделения в редакторе мира. Предназначено для модераторов.",
+        "recommendation" : null,
+        "selected" : false
+      },
+      "files" : {
+        "include" : [
+          "mods/*euclid*"
+        ],
+        "exclude" : [ ]
+      }
+    },
+    {
+      "properties" : {
+        "name" : "Улучшенные звуки",
+        "description" : "Пакет звуковых текстур высокого качества.",
+        "recommendation" : null,
+        "selected" : true
+      },
+      "files" : {
+        "include" : [
+          "resourcepacks/*sounds*"
+        ],
+        "exclude" : [ ]
+      }
+    },
+    {
+      "properties" : {
+        "name" : "Основные текстуры",
+        "description" : "Пакет официальных основных текстур. Включает улучшенное освещение, небо, листву, новые текстуры и другое.",
+        "recommendation" : null,
+        "selected" : true
+      },
+      "files" : {
+        "include" : [
+          "resourcepacks/*main*"
+        ],
+        "exclude" : [ ]
+      }
+    },
+    {
+      "properties" : {
+        "name" : "Сглаженные текстуры",
+        "description" : "Пакет сглаженных текстур высокого разрешения. Приятны для длительной игры.",
+        "recommendation" : null,
+        "selected" : false
+      },
+      "files" : {
+        "include" : [
+          "resourcepacks/*smooth*"
+        ],
+        "exclude" : [ ]
+      }
+    },
+    {
+      "properties" : {
+        "name" : "Грубые текстуры",
+        "description" : "Пакет контрастных текстур высокого качества для максимально хардкорных игроков.",
+        "recommendation" : null,
+        "selected" : false
+      },
+      "files" : {
+        "include" : [
+          "resourcepacks/*contrast*"
+        ],
+        "exclude" : [ ]
+      }
+    },
+    {
+      "properties" : {
+        "name" : "Рекомендованные параметры",
+        "description" : "Установим сбалансированные параметры для удобной игры и максимальной производительности.",
+        "recommendation" : null,
+        "selected" : true
+      },
+      "files" : {
+        "include" : [
+          "options.txt",
+          "optionsof.txt"
+        ],
+        "exclude" : [ ]
+      }
+    }
+  ],
+  "userFiles" : {
+    "include" : [
+      "options.txt",
+      "optionsshaders.txt"
+    ],
+    "exclude" : [ ]
+  },
+  "launch" : {
+    "flags" : [
+      "-Dfml.ignoreInvalidMinecraftCertificates=true"
+    ]
+  }
+}
