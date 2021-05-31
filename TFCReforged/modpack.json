@@ -1,0 +1,188 @@
+{
+  "name" : "TFCReforged",
+  "title" : "TFCReforged",
+  "gameVersion" : "1.12.2",
+  "features" : [
+    {
+      "properties" : {
+        "name" : "Размытие",
+        "description" : "Модуль, размывающий фон при открытии интерфейсов.",
+        "recommendation" : null,
+        "selected" : true
+      },
+      "files" : {
+        "include" : [
+          "mods/*Blur*"
+        ],
+        "exclude" : [ ]
+      }
+    },
+    {
+      "properties" : {
+        "name" : "Вид первого лица",
+        "description" : "Реалистичный вид от первого лица. Не совсем хорошо совместим с дополнительной анимацией.",
+        "recommendation" : null,
+        "selected" : true
+      },
+      "files" : {
+        "include" : [
+          "mods/*realrender*"
+        ],
+        "exclude" : [ ]
+      }
+    },
+    {
+      "properties" : {
+        "name" : "Эффекты на экране",
+        "description" : "Эффекты крови, воды, пыли на экране.",
+        "recommendation" : null,
+        "selected" : true
+      },
+      "files" : {
+        "include" : [
+          "mods/*EnhancedVisuals*"
+        ],
+        "exclude" : [ ]
+      }
+    },
+    {
+      "properties" : {
+        "name" : "Улучшение шрифтов",
+        "description" : "Улучшение визуального отображения шрифтов до более сглаженных и читабельных.",
+        "recommendation" : null,
+        "selected" : true
+      },
+      "files" : {
+        "include" : [
+          "mods/*SmoothFont*"
+        ],
+        "exclude" : [ ]
+      }
+    },
+    {
+      "properties" : {
+        "name" : "Текстуры fainthful",
+        "description" : "Дополнительные текстуры более высокого качества.",
+        "recommendation" : null,
+        "selected" : false
+      },
+      "files" : {
+        "include" : [
+          "resourcepacks/*Fainthful*"
+        ],
+        "exclude" : [ ]
+      }
+    },
+    {
+      "properties" : {
+        "name" : "Анимация чанков",
+        "description" : "Эффекты при прогрузке новых чанков. Может вызывать проблемы отображения при копании вниз.",
+        "recommendation" : null,
+        "selected" : false
+      },
+      "files" : {
+        "include" : [
+          "mods/*ChunkAnimator*"
+        ],
+        "exclude" : [ ]
+      }
+    },
+    {
+      "properties" : {
+        "name" : "Физика звуков",
+        "description" : "Физическая обработка звуков: в пещерах будет эхо; если играет проигрыватель, то за стеной звук приглушается и т.д.",
+        "recommendation" : null,
+        "selected" : true
+      },
+      "files" : {
+        "include" : [
+          "mods/*Sound-Physics*"
+        ],
+        "exclude" : [ ]
+      }
+    },
+    {
+      "properties" : {
+        "name" : "Оптимизировать при неактивности",
+        "description" : "Снижать количество кадров, если вы переключены на другое окно. Позволяет уменьшить нагрузку на оборудование при одновременном использовании других приложений.",
+        "recommendation" : null,
+        "selected" : true
+      },
+      "files" : {
+        "include" : [
+          "mods/*FpsReducer*"
+        ],
+        "exclude" : [ ]
+      }
+    },
+    {
+      "properties" : {
+        "name" : "Дополнительная анимация",
+        "description" : "Более реалистичная анимация мобов и игроков.",
+        "recommendation" : null,
+        "selected" : true
+      },
+      "files" : {
+        "include" : [
+          "mods/*mobends*"
+        ],
+        "exclude" : [ ]
+      }
+    },
+    {
+      "properties" : {
+        "name" : "Пышная листва",
+        "description" : "Листва деревьев круглая и реалистичная. Дополнительная растительность.",
+        "recommendation" : null,
+        "selected" : true
+      },
+      "files" : {
+        "include" : [
+          "mods/*BetterFoliage*"
+        ],
+        "exclude" : [ ]
+      }
+    },
+    {
+      "properties" : {
+        "name" : "Звуковые эффекты",
+        "description" : "Дополнительные звуковые эффекты окружения.",
+        "recommendation" : null,
+        "selected" : true
+      },
+      "files" : {
+        "include" : [
+          "mods/*AmbientSounds*"
+        ],
+        "exclude" : [ ]
+      }
+    },
+    {
+      "properties" : {
+        "name" : "Палитра блоков",
+        "description" : "Возможность открыть палитру и подобрать блок, используя множество параметров. Идеально для дизайнеров и архитекторов.",
+        "recommendation" : null,
+        "selected" : true
+      },
+      "files" : {
+        "include" : [
+          "mods/*blockpalette*"
+        ],
+        "exclude" : [ ]
+      }
+    }
+  ],
+  "userFiles" : {
+    "include" : [
+      "options.txt",
+      "optionsshaders.txt",
+      "optionsof.txt"
+    ],
+    "exclude" : [ ]
+  },
+  "launch" : {
+    "flags" : [
+      "-Dfml.ignoreInvalidMinecraftCertificates=true"
+    ]
+  }
+}
