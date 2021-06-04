@@ -1,0 +1,31 @@
+{
+  "name" : "Scavenger",
+  "title" : "Scavenger",
+  "gameVersion" : "1.12.2",
+  "features" : [
+    {
+      "properties" : {
+        "name" : "Пышная листва",
+        "description" : "Листва выглядит очень красиво. Но понижает фпс.",
+        "recommendation" : null,
+        "selected" : true
+      },
+      "files" : {
+        "include" : [
+          "mods/*BetterFoliage*",
+          "mods/*Forgelin*"
+        ],
+        "exclude" : [ ]
+      }
+    }
+  ],
+  "userFiles" : {
+    "include" : [ ],
+    "exclude" : [ ]
+  },
+  "launch" : {
+    "flags" : [
+      "-Dfml.ignoreInvalidMinecraftCertificates=true"
+    ]
+  }
+}

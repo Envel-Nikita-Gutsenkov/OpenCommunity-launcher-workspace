@@ -149,7 +149,8 @@
   "userFiles" : {
     "include" : [
       "options.txt",
-      "optionsshaders.txt"
+      "optionsshaders.txt",
+      "optionsof.txt"
     ],
     "exclude" : [ ]
   },

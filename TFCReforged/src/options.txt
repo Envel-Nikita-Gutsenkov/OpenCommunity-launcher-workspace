@@ -15,7 +15,7 @@ difficulty:2
 fancyGraphics:true
 ao:2
 renderClouds:false
-resourcePacks:["Sounds","Main.zip","LiteSky"]
+resourcePacks:["Main.zip","Sounds","Sky"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:ru_ru
