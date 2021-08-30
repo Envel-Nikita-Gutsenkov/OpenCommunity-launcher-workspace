@@ -1,0 +1,26 @@
+{
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2021-05-21 18:24:00 +0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2021-05-21 17:01:46 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2021-05-21 17:57:49 +0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "plains": "2021-05-21 16:57:37 +0300"
+    },
+    "done": false
+  }
+}

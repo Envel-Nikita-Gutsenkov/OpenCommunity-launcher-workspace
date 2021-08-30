@@ -144,6 +144,34 @@
         ],
         "exclude" : [ ]
       }
+    },
+    {
+      "properties" : {
+        "name" : "Оптимизация сундуков",
+        "description" : "Сундуки станут статичными. Ваш склад с тысячами хранилищ перестанет лагать.",
+        "recommendation" : null,
+        "selected" : true
+      },
+      "files" : {
+        "include" : [
+          "mods/*enhancedblockentities*"
+        ],
+        "exclude" : [ ]
+      }
+    },
+    {
+      "properties" : {
+        "name" : "Анимация опадения листвы",
+        "description" : "Включить анимацию падающих листьев",
+        "recommendation" : null,
+        "selected" : false
+      },
+      "files" : {
+        "include" : [
+          "mods/*fallingleaves*"
+        ],
+        "exclude" : [ ]
+      }
     }
   ],
   "userFiles" : {

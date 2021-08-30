@@ -1,0 +1,48 @@
+{
+  "name" : "Original-L",
+  "title" : null,
+  "gameVersion" : "1.17.1",
+  "features" : [
+    {
+      "properties" : {
+        "name" : "Анимация падения листвы",
+        "description" : "Включить анимацию падающих листьев",
+        "recommendation" : null,
+        "selected" : false
+      },
+      "files" : {
+        "include" : [
+          "mods/*fallingleaves*"
+        ],
+        "exclude" : [ ]
+      }
+    },
+    {
+      "properties" : {
+        "name" : "Рекомендованные параметры",
+        "description" : "Установим сбалансированные параметры для удобной игры и максимальной производительности.",
+        "recommendation" : null,
+        "selected" : true
+      },
+      "files" : {
+        "include" : [
+          "options.txt",
+          "optionsof.txt"
+        ],
+        "exclude" : [ ]
+      }
+    }
+  ],
+  "userFiles" : {
+    "include" : [
+      "options.txt",
+      "optionsshaders.txt"
+    ],
+    "exclude" : [ ]
+  },
+  "launch" : {
+    "flags" : [
+      "-Dfml.ignoreInvalidMinecraftCertificates=true"
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "name" : "Original-A",
+  "title" : null,
+  "gameVersion" : "1.17.1",
+  "features" : [
+    {
+      "properties" : {
+        "name" : "Инструменты модератора",
+        "description" : "Включить визуальные дополнения для модераторов.",
+        "recommendation" : null,
+        "selected" : false
+      },
+      "files" : {
+        "include" : [
+          "mods/*watson*",
+          "mods/*malilib*"
+        ],
+        "exclude" : [ ]
+      }
+    },
+    {
+      "properties" : {
+        "name" : "Анимация опадения листвы",
+        "description" : "Включить анимацию падающих листьев",
+        "recommendation" : null,
+        "selected" : false
+      },
+      "files" : {
+        "include" : [
+          "mods/*fallingleaves*"
+        ],
+        "exclude" : [ ]
+      }
+    }
+  ],
+  "userFiles" : {
+    "include" : [
+      "options.txt",
+      "optionsshaders.txt"
+    ],
+    "exclude" : [ ]
+  },
+  "launch" : {
+    "flags" : [
+      "-Dfml.ignoreInvalidMinecraftCertificates=true"
+    ]
+  }
+}

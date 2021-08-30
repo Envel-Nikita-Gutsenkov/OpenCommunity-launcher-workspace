@@ -170,6 +170,22 @@
         ],
         "exclude" : [ ]
       }
+    },
+    {
+      "properties" : {
+        "name" : "Небо высокого качества",
+        "description" : "Не использовать сжатие в пакете текстур неба.",
+        "recommendation" : null,
+        "selected" : false
+      },
+      "files" : {
+        "include" : [
+          "resourcepacks/Sky"
+        ],
+        "exclude" : [
+          "resourcepacks/LiteSky"
+        ]
+      }
     }
   ],
   "userFiles" : {

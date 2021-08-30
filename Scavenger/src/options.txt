@@ -15,7 +15,7 @@ difficulty:1
 fancyGraphics:true
 ao:2
 renderClouds:fast
-resourcePacks:["Glowing.zip","0_Romecraft_Britannia_2.5.zip"]
+resourcePacks:["Glowing.zip","0_Romecraft_Britannia_2.5.zip","Sounds.zip"]
 incompatibleResourcePacks:[]
 lastServer:localhost
 lang:ru_ru
@@ -60,7 +60,7 @@ key_key.back:31
 key_key.right:32
 key_key.jump:57
 key_key.sneak:42
-key_key.sprint:47
+key_key.sprint:29
 key_key.drop:16
 key_key.inventory:18
 key_key.chat:20
@@ -137,15 +137,15 @@ key_Up (Attach mode):200
 key_Down (Attach mode):208
 key_Debug Mode:68
 key_key.mcreator.gability:34
-soundCategory_master:0.30463576
-soundCategory_music:0.4084507
+soundCategory_master:0.24172185
+soundCategory_music:0.0
 soundCategory_record:0.0
 soundCategory_weather:1.0
-soundCategory_block:0.471831
-soundCategory_hostile:0.5140845
+soundCategory_block:1.0
+soundCategory_hostile:1.0
 soundCategory_neutral:1.0
-soundCategory_player:0.0
-soundCategory_ambient:0.4084507
+soundCategory_player:0.2535211
+soundCategory_ambient:1.0
 soundCategory_voice:1.0
 modelPart_cape:true
 modelPart_jacket:true
