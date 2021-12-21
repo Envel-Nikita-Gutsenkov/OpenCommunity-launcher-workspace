@@ -1,7 +1,7 @@
 {
   "name" : "Original-L",
   "title" : null,
-  "gameVersion" : "1.17.1",
+  "gameVersion" : "1.18.1",
   "features" : [
     {
       "properties" : {
@@ -28,6 +28,77 @@
         "include" : [
           "options.txt",
           "optionsof.txt"
+        ],
+        "exclude" : [ ]
+      }
+    },
+    {
+      "properties" : {
+        "name" : "Характеристики лошадей (1)",
+        "description" : "Показывать характеристики лошадей при наведении в F3.",
+        "recommendation" : null,
+        "selected" : true
+      },
+      "files" : {
+        "include" : [
+          "mods/*HorseDebug*"
+        ],
+        "exclude" : [ ]
+      }
+    },
+    {
+      "properties" : {
+        "name" : "Характеристики лошадей (2)",
+        "description" : "Показывать характеристики лошадей в их интерфейсе после приручения.",
+        "recommendation" : null,
+        "selected" : false
+      },
+      "files" : {
+        "include" : [
+          "mods/*horse-stats-vanilla*"
+        ],
+        "exclude" : [ ]
+      }
+    },
+    {
+      "properties" : {
+        "name" : "Оптимизация сундуков",
+        "description" : "Сундуки станут статичными. Ваш склад с тысячами хранилищ перестанет лагать.",
+        "recommendation" : null,
+        "selected" : true
+      },
+      "files" : {
+        "include" : [
+          "mods/*enhancedblockentities*"
+        ],
+        "exclude" : [ ]
+      }
+    },
+    {
+      "properties" : {
+        "name" : "Динамический ФПС",
+        "description" : "Снижать фпс, если окно игры не активно.",
+        "recommendation" : null,
+        "selected" : true
+      },
+      "files" : {
+        "include" : [
+          "mods/*dynamic-fps*"
+        ],
+        "exclude" : [ ]
+      }
+    },
+    {
+      "properties" : {
+        "name" : "Инструменты модератора",
+        "description" : "Включить визуальные дополнения для модераторов.",
+        "recommendation" : null,
+        "selected" : false
+      },
+      "files" : {
+        "include" : [
+          "mods/*watson*",
+          "mods/*malilib*"
         ],
         "exclude" : [ ]
       }
