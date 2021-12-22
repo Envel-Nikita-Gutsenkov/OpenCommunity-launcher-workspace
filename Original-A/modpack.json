@@ -115,6 +115,20 @@
         ],
         "exclude" : [ ]
       }
+    },
+    {
+      "properties" : {
+        "name" : "Поддержка шейдеров",
+        "description" : "Добавляет экспериментальную поддержку optifine-совместимых шейдеров.",
+        "recommendation" : null,
+        "selected" : false
+      },
+      "files" : {
+        "include" : [
+          "mods/*iris*"
+        ],
+        "exclude" : [ ]
+      }
     }
   ],
   "userFiles" : {
