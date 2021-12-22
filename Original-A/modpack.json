@@ -87,6 +87,34 @@
         ],
         "exclude" : [ ]
       }
+    },
+    {
+      "properties" : {
+        "name" : "Предотвращать случайное обтесывание дерева и создание тропинок",
+        "description" : "Требовать подтверждения для защиты от случайного обтесывания дерева топором или создания тропинок лопатой.",
+        "recommendation" : null,
+        "selected" : true
+      },
+      "files" : {
+        "include" : [
+          "mods/*nostrip*"
+        ],
+        "exclude" : [ ]
+      }
+    },
+    {
+      "properties" : {
+        "name" : "Плавные графические интерфейсы",
+        "description" : "Сделать работу с графическими интерфейсами более плавной",
+        "recommendation" : null,
+        "selected" : true
+      },
+      "files" : {
+        "include" : [
+          "mods/*SmoothSwapping*"
+        ],
+        "exclude" : [ ]
+      }
     }
   ],
   "userFiles" : {
